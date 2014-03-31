@@ -1,0 +1,37 @@
+{
+  "name": "compare-numbers",
+  "description": "Compare two numbers, return -1/0/1. To be used to sort arrays",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cosmosio/compare-numbers",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/cosmosio/compare-numbers/master/LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "author": "Olivier Scherrer <pode.fr@gmail.com>",
+  "keywords": [
+    "compare",
+    "numbers",
+    "sort"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cosmosio/compare-numbers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cosmosio/compare-numbers/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  }
+}
